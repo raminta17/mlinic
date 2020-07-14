@@ -1,0 +1,11 @@
+<?php
+    get_template_part('header');
+    get_template_part('elements/banner');
+    get_template_part('elements/about');
+    get_template_part('elements/line');
+    get_template_part('elements/choose-us');
+    get_template_part('elements/line');
+    get_template_part('elements/treatments');
+    get_template_part('elements/line');
+    get_template_part('elements/team');
+    get_template_part('footer');

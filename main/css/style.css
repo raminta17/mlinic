@@ -1,0 +1,146 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #5d5c61;
+    margin: 0;
+}
+main {line-height: 2.5;}
+
+* {box-sizing: border-box;}
+
+header, footer {
+    background-color: #5d5c61;
+    margin: 0;
+    padding: 0;
+}
+.header-cont>ul {
+    height: 100%;
+}
+#logo {
+    height: 45px;
+    margin: auto;
+}
+.nav-item, nav div {
+    display: flex;
+    align-items: center;
+}
+.nav-item:hover {
+    background-color: #f7f9fb;
+}
+.nav-item:hover>a, .treatments a {
+    color: #5d5c61;
+}
+nav a {
+    color: #f7f9fb;
+    text-decoration: none;
+}
+.banner {
+    background-color: #f7f9fb;
+    text-align: center;
+}
+.banner-box-text {
+    font-weight: bold;
+    padding: 20px 0 5px 0;
+}
+#banner-photo {
+    opacity: 0.4;
+    width: 100%;
+}
+.banner-box-image {
+    width: 30%;
+}
+.book-online {
+    background-color: #ff5c67;
+    opacity: 0.8;
+    color: #f7f9fb;
+}
+.book-online:hover {
+    background-color: #ff5c67;
+    opacity: inherit;
+}
+button {
+    margin: 20px;
+    width: 200px;
+    padding: 15px;
+    border: solid 1px;
+    border-color: #ff5c67;
+    border-radius: 2px;
+    font-weight: bold;
+    box-shadow: 0px 0px 10px 1px #ff5c67;
+}
+button:hover {
+    box-shadow: 0px 0px 15px 2px #ff5c67;
+}
+button:active{
+    border: solid 1px;
+    border-color: #ff5c67;
+}
+.page-section {
+    align-items: center;
+    margin: 30px;
+}
+.content {
+    margin: auto;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+h3 {
+    text-align: center;
+    margin: 20px;
+}
+hr.line{
+    width: 30%;
+    border-top: 3px solid #ff5c67;
+    opacity: 0.5;
+    border-radius: 15px;
+}
+.treatments {
+    width: 80%;
+    text-align: left;
+    line-height: 2;
+}
+.list {
+    text-transform: uppercase;
+}
+.team-photo {
+    border-radius: 60px;
+    width: 100px;
+    height:100px;
+    object-fit: none;
+    margin: 5px;
+}
+.team-member-box {
+    font-size: 0.8em;
+    padding: 10px;
+    margin: 15px;
+    line-height: 1;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 1px #D3D3D3;
+}
+.team-member-box:hover {
+    color: #ff5c67;
+}
+.team-member-box:hover {
+    box-shadow: 0px 0px 10px 1px #ff5c67;
+}
+.footer-cont {
+    padding: 2px;
+    color:#f7f9fb;
+    font-size: 0.8rem;
+    line-height: 0.5;
+}
+.d-flex.footer-cont {
+    padding:10px;
+}
+#contacts {
+    padding:20px;
+    align-self: center;
+}
+a.footer-cont, .choose-us a, .treatments a:hover {
+    color: #ff5c67;
+}
+iframe {
+    width: 400px;
+    height: 200px;
+}
